@@ -30,9 +30,18 @@ int main() {
         tabuleiro[i][3] = 3;
     }
 
-    // insere o navio 2 na vertical
+    // Insere o navio 2 na vertical
     for (i = 2; i < 5; i++) {
         tabuleiro[7][i] = 3;
+    }
+
+    // Insere 2 navios na vertical
+    for (i = 4, j =0; i > 1, j < 3; i--, j++) {
+        tabuleiro[i][j] = 3;
+    }
+
+    for (i = 4, j = 5; i < 7, j < 8; i++, j++) {
+        tabuleiro[i][j] = 3;
     }
 
     // Imprime o tabuleiro com os navios
